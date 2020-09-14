@@ -74,7 +74,7 @@ $rand = 'pic-sorter-'.uniqid();
             </label>
             <div class="mw-post-media-img-edit">
 
-                <div class="image-options">
+                <template class="image-options">
 
                     <div id="image-json-options-<?php print  $item['id']; ?>">
                         <div class="image-json-options">
@@ -98,7 +98,7 @@ $rand = 'pic-sorter-'.uniqid();
 
                         </div>
                     </div>
-                </div>
+                </template>
             </div>
         </div>
     <?php endforeach; ?>
